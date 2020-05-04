@@ -1,7 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App component renders App 1`] = `
-<h1>
-  Hello World
-</h1>
+<Search
+  artistName="U2"
+  onChange={[Function]}
+  onSubmit={[Function]}
+  text="U2"
+/>
 `;

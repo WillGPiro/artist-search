@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`It describes the Artist component matches a snapshot of Artist.jsx 1`] = `<h4 />`;

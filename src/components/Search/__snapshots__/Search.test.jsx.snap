@@ -5,7 +5,7 @@ exports[`It describes the search component matches a snapshot of Search.jsx 1`] 
   onSubmit={[Function]}
 >
   <input
-    name="U2"
+    name="artist"
     onChange={[Function]}
     type="text"
     value="U2"

@@ -1,3 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`It describes the Artist component matches a snapshot of Artist.jsx 1`] = `<h4 />`;
+exports[`It describes the Artist component matches a snapshot of Artist.jsx 1`] = `
+<section>
+  <h2>
+    U2
+  </h2>
+  <p>
+    Irish Rock Band
+  </p>
+</section>
+`;

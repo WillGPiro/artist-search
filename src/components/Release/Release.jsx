@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const Release = ({ title, image }) => (
   <section>
-    <h2><Link to= {`title/${title}`}>{title}</Link>{title}</h2>
+    <h2><Link to= {`title/${title}`}>{title}</Link></h2>
     <img src={image} alt="Image of album or relsease"></img>
   </section>
 );

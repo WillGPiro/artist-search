@@ -8,5 +8,16 @@ export const artistRequest = (text) => {
     })));
 };
 
+export const releaseRequest = (artistId) => {
+  return fetch(`http://musicbrainz.org/ws/2/release?artist=${artistId}&fmt=json`)
+    .then(res => res.json())
+    .then(json => json.releases.map(release => ({
+      title: release.title
+    })));
+};
+
+
+
+
 
 

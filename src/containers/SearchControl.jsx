@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Search from '../components/Search/Search';
-import { artistRequest } from '../services/artistRequest';
+import { artistRequest } from '../services/musicbrainz';
 import ArtistsList from '../components/Artist/ArtistsList';
 
 //Username 

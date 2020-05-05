@@ -10,9 +10,9 @@
 import React from 'React';
 import PropTypes from 'prop-types';
 
-const Search = ({ text, onSubmit, artistName = 'text', onChange }) => (
+const Search = ({ text, onSubmit, onChange }) => (
   <form onSubmit={onSubmit}>
-    <input type="text" name={artistName} value={text} onChange={onChange} />
+    <input type="text" name="artist" value={text} onChange={onChange} />
     <button>Search</button>
   </form>
 );

@@ -1,24 +1,25 @@
 import React, { useState } from 'react';
-import Search from '../components/Search';
+import Search from '../components/Search/Search';
+import { artistRequest } from '../services/artistRequest';
 
 //Username 
 const SearchControl = () => {
   const [text, setText] = useState('');
-  const [submit, setSubmit] = useState([]);
-  
+  const [searchResults, setSearchResults] = useState([]);
+
   const handleChange = ({ target }) => {
     setText(target.value);
   };
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    makeRequest(text)
-      .then(submit => setSubmit(submit));
+    artistRequest(text)
+      .then(results => setSearchResults(results));
   };
+  console.log('HEEEEY', searchResults);
 
   return (
     <Search 
-      text={text}
       onChange={handleChange}
       onSubmit={handleSubmit}
     />

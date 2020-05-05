@@ -4,7 +4,7 @@ import ArtistsList from '../Artist/ArtistsList.jsx';
 
 describe('Artist List component', () => {
   it('matches the ArtistLists component', () =>{
-    const searchResults = [
+    const artistResults = [
       {
         id: 'a3cb23fc-acd3-4ce0-8f36-1e5aa6a18432',
         name: 'U2',
@@ -17,7 +17,7 @@ describe('Artist List component', () => {
       }
     ];
 
-    const wrapper = shallow(<ArtistsList searchResults={searchResults} />);
+    const wrapper = shallow(<ArtistsList artistResults={artistResults} />);
     expect(wrapper).toMatchSnapshot();
   });
 });

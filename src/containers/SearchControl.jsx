@@ -21,7 +21,7 @@ const SearchControl = () => {
   return (
     <>
       <Search onChange={handleChange} onSubmit={handleSubmit} />
-      <ArtistsList searchResults={searchResults} />
+      <ArtistsList artistResults={searchResults} />
     </>
   );
 };

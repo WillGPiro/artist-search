@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReleaseList component matches the ReleaseLists component 1`] = `
+<ol>
+  <li>
+    <Release
+      image="http://coverartarchive.org/release/03be9452-549a-4f30-a96f-44f794d50253/front"
+      title="Gloria"
+    />
+  </li>
+  <li>
+    <Release
+      image="http://coverartarchive.org/release/03be9452-549a-4f30-a96f-44f794d50253/front"
+      title="Gloria"
+    />
+  </li>
+</ol>
+`;

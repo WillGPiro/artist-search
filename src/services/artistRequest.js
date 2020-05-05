@@ -4,6 +4,7 @@ export const artistRequest = (text) => {
     .then(json => json.artists.map(artist => ({
       name: artist.name,
       id: artist.id,
+      disambiguation: artist.disambiguation
     })));
 };
 

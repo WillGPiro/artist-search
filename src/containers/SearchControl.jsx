@@ -17,7 +17,6 @@ const SearchControl = () => {
     artistRequest(text)
       .then(results => setSearchResults(results));
   };
-  console.log('HEEEEY', searchResults);
 
   return (
     <>

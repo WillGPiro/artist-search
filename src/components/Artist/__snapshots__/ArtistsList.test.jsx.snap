@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Artist List component matches the ArtistLists component 1`] = `
-<ul>
+<ol>
   <li
     key="a3cb23fc-acd3-4ce0-8f36-1e5aa6a18432"
   >
@@ -20,5 +20,5 @@ exports[`Artist List component matches the ArtistLists component 1`] = `
       name="U2"
     />
   </li>
-</ul>
+</ol>
 `;

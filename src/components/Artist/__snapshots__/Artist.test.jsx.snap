@@ -3,7 +3,11 @@
 exports[`It describes the Artist component matches a snapshot of Artist.jsx 1`] = `
 <section>
   <h2>
-    U2
+    <Link
+      to="artist/U2"
+    >
+      U2
+    </Link>
   </h2>
   <p>
     Irish Rock Band

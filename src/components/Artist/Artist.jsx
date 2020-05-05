@@ -1,21 +1,17 @@
-//Artist detail page (presentational component) with all releases.
-//Paging through releases
-//http://musicbrainz.org/ws/2/release?artist=<ARTIST_ID>&fmt=json
-//Add Disambiguation ID. 
-
 import React from 'React';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 const Artist = ({ name, disambiguation }) => (
   <section>
-    <h2>{name}</h2>
+    <h2><Link to={`artist/${name}`}>{name}</Link></h2>
     <p>{disambiguation}</p>
   </section>
 );
 
 Artist.propTypes = {
-  name: PropTypes.isRequired,
-  disambiguation: PropTypes.isRequired
+  name: PropTypes.string.isRequired,
+  disambiguation: PropTypes.string.isRequired
 };
 
 export default Artist;

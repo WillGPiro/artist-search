@@ -18,7 +18,7 @@ const withList = (ListItemComponent, propName = 'list') => {
     );
   }
 
-  SearchListComponent.displayName = `SearchListComponent(${ListItemComponent})`;
+  SearchListComponent.displayName = `SearchListComponent(${ListItemComponent.name})`;
   return SearchListComponent;
 };
 

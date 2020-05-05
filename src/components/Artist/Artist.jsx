@@ -6,7 +6,7 @@ import React from 'React';
 import PropTypes from 'prop-types';
 
 const Artist = () => (
-  <h4>{name}</h4>
+  <p>{name}</p>
 );
 
 Artist.propTypes = {

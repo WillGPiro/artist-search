@@ -1,7 +1,7 @@
 import Artist from '../Artist/Artist.jsx';
-import withList from '../withList.js';
+import withList from '../withList';
 
-const ArtistList = withList(Artist, 'artistResults');
+const ArtistList = withList(Artist, 'searchResults');
 
 export default ArtistList;
 

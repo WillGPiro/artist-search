@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import ReleaseList from '../Release/ReleaseList.jsx';
+import ReleasesList from '../Release/ReleasesList.jsx';
 
 describe('ReleaseList component', () => {
   it('matches the ReleaseLists component', () =>{
@@ -15,7 +15,7 @@ describe('ReleaseList component', () => {
       }
     ];
 
-    const wrapper = shallow(<ReleaseList releaseResults={releaseResults} />);
+    const wrapper = shallow(<ReleasesList releaseResults={releaseResults} />);
     expect(wrapper).toMatchSnapshot();
   });
 });

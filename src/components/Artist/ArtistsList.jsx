@@ -1,13 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
+import Artist from '../Artist/Artist.jsx';
+import withList from '../withList.js';
 
-const ArtistList = ({name}) => (
+const ArtistList = withList(Artist, 'artistResults');
 
-);
+export default ArtistList;
 
-ArtistsList.propTypes = {
-  name: PropTypes.string.isRequired
-};
-
-export default Artists

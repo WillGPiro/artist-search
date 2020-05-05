@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Search from '../components/Search/Search';
 import { artistRequest } from '../services/artistRequest';
+import ArtistsList from '../components/Artist/ArtistsList';
 
 //Username 
 const SearchControl = () => {
@@ -19,10 +20,10 @@ const SearchControl = () => {
   console.log('HEEEEY', searchResults);
 
   return (
-    <Search 
-      onChange={handleChange}
-      onSubmit={handleSubmit}
-    />
+    <>
+      <Search onChange={handleChange} onSubmit={handleSubmit} />
+      <ArtistsList artistResults={searchResults} />
+    </>
   );
 };
 

@@ -8,10 +8,12 @@ describe('ReleaseList component', () => {
       {
         title: 'Gloria',
         image: 'http://coverartarchive.org/release/03be9452-549a-4f30-a96f-44f794d50253/front',
+        id: '123'
       },
       {
         title: 'Gloria',
-        image: 'http://coverartarchive.org/release/03be9452-549a-4f30-a96f-44f794d50253/front'
+        image: 'http://coverartarchive.org/release/03be9452-549a-4f30-a96f-44f794d50253/front',
+        id: '123'
       }
     ];
 

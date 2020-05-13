@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Song Matches a snapshot of the Song component 1`] = `
+<section>
+  <h2>
+    <Link
+      to="/lyrics/U2/Gloria"
+    />
+  </h2>
+  <h2>
+    Gloria
+  </h2>
+  <h3>
+    LALALALALALALA
+  </h3>
+</section>
+`;

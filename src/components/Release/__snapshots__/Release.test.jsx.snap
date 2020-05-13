@@ -4,7 +4,7 @@ exports[`Release Matches a snapshot of the Release component 1`] = `
 <section>
   <h2>
     <Link
-      to="title/Gloria"
+      to="/recording/1234"
     >
       Gloria
     </Link>

@@ -6,7 +6,9 @@ describe('It describes the Recording component', () => {
   it('Matches a snapshot of Recording.jsx', () => {
     const wrapper = shallow (<Recording 
       title="Hush" 
-      disambiguation="album version" />);
+      disambiguation="album version" 
+      id="123123123"
+    />);
     expect(wrapper).toMatchSnapshot();
   });
 });

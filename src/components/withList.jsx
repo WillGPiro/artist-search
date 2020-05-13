@@ -2,6 +2,7 @@ import React from 'react';
 
 const withList = (ListItemComponent, propName = 'list') => {
   function SearchListComponent(props) {
+    (props);
     const listItems = props[propName].map(item => (
       <li key={item.id}>
         <ListItemComponent {...item} />

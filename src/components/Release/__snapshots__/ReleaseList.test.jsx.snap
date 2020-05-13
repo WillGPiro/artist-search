@@ -2,14 +2,20 @@
 
 exports[`ReleaseList component matches the ReleaseLists component 1`] = `
 <ol>
-  <li>
+  <li
+    key="123"
+  >
     <Release
+      id="123"
       image="http://coverartarchive.org/release/03be9452-549a-4f30-a96f-44f794d50253/front"
       title="Gloria"
     />
   </li>
-  <li>
+  <li
+    key="123"
+  >
     <Release
+      id="123"
       image="http://coverartarchive.org/release/03be9452-549a-4f30-a96f-44f794d50253/front"
       title="Gloria"
     />

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`It describes the search component matches a snapshot of Search.jsx 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    name="artist"
+    onChange={[Function]}
+    type="text"
+    value="U2"
+  />
+  <button>
+    Search
+  </button>
+</form>
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Release Matches a snapshot of the Release component 1`] = `
+<section>
+  <h2>
+    <Link
+      to="/recording/1234"
+    >
+      Gloria
+    </Link>
+  </h2>
+  <img
+    alt="Image of album or relsease"
+    src="http://coverartarchive.org/release/03be9452-549a-4f30-a96f-44f794d50253/front"
+  />
+</section>
+`;
